@@ -1,0 +1,23 @@
+    
+  /* Responsive styles */
+  @media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+    .dropdown-menu {
+      position: static !important;
+    }
+    .dropdown-menu > a {
+      display: block;
+    }
+    .btn-custom {
+      margin-top: 10%;
+    }
+  }
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.8rem;
+    }
+  }
+  
+
